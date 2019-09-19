@@ -2,6 +2,8 @@ module github.com/koblas/s3-cli
 
 go 1.12
 
+replace git.apache.org/thrift.git => github.com/apache/thrift v0.12.0
+
 require (
 	github.com/aws/aws-sdk-go v1.19.15
 	github.com/go-ini/ini v1.42.0
